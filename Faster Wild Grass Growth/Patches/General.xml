@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "PlantGrass"]/plant/reproduceMtbDays</xpath>
+		<value>
+			<reproduceMtbDays>0.3</reproduceMtbDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "PlantTallGrass"]/plant/reproduceMtbDays</xpath>
+		<value>
+			<reproduceMtbDays>0.3</reproduceMtbDays>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/ThingDef[defName = "PlantBrambles"]/plant/reproduceMtbDays</xpath>
+		<value>
+			<reproduceMtbDays>0.3</reproduceMtbDays>
+		</value>
+	</Operation>
+</Patch>
